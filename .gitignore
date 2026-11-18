@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Next.js / Node
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel/
+
+# Logs and generated files
+*.log
+*.tsbuildinfo
+.coverage
+coverage/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
